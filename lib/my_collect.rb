@@ -5,4 +5,5 @@ def my_collect(array)
     array << yield(array[i])
     i += 1
   end
+  array.split(" ").first
 end
