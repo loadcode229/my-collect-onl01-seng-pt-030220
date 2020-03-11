@@ -4,7 +4,7 @@ def my_collect(array)
   while i < array.length
     i += 1
     my_collect(array) do |word|
-      word.upcase
+      return word.upcase
     end
   end
 end
